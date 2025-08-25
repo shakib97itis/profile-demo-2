@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.Container {
+  @apply mx-auto px-6 lg:px-20;
+}
+
+
+.accordion-button .accordion-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url("https://www.iconarchive.com/download/i112819/fa-team/fontawesome/FontAwesome-Plus.1024.png");
+  background-size: cover;
+}
+.accordion-item.open .accordion-icon {
+  background-image: url("https://icons.iconarchive.com/icons/fa-team/fontawesome/512/FontAwesome-Xmark-icon.png");
+}
